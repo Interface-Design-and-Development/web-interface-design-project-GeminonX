@@ -1,0 +1,12 @@
+body{
+    color: #927215;
+}
+
+.striped_background {
+    width: 100%; /* Or set a fixed width */
+    height: 700px; /* Or set a fixed height */
+    background-color: #fdffab; /* Optional: Set a background color for the overall element */
+    background-image: linear-gradient(90deg, transparent 50%, #ffcf81 50%); /* Creates alternating transparent and black stripes */
+    background-size: 200px 200px; /* Sets the size of each stripe */
+    background-repeat: repeat; /* Repeats the pattern to fill the element */
+}
