@@ -7,27 +7,46 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        
+        <a href="#main-content" class="skip-link">Skip to main content</a>
             <div id="header-wrapper">
                 <header>
                     <div class="wrap-nav">
                         <nav role="navigation" class="header-nav">
                             <ul>
                                 <li><a class="home-li" href="index.html">Home</a></li>
+                                <li><a href="https://halotop.com/pints">Other Flavors</a></li>
                             </ul>
                         </nav>
                     </div>
                 </header>
             </div>
-            <div class="main-content">
-                <h1>This is a site about ice cream</h1>
-                <h3>Here I will talk about ice cream</h3>
+
+        <!-- Hero Section -->
+        <main role="main" class="main-content">
+            <section class="hero">
+             <div class="pint">
+                <img src="halo-top-caramel-cookie-crunch-v1.png"
+                    alt="pint of Halo Top Caramel Cookie Crunch ice cream"
+                    class="hero-img"/>
             </div>
-            <div class="pint">
-                <img src="halo-top-caramel-cookie-crunch-v1.png" width="300" height="300"
-                    alt="pint of Halo Top Caramel Cookie Crunch ice cream">
-            </div>
-        
+                <h1>Caramel Cookie Crunch!</h1>
+                <h3>The most delicious, sweetest, saltiest treat you didn't know you craved!</h3>
+                <button id="learnMoreBtn">Learn More!</button>
+            </section>
+
+            <!-- Flavor Info Section -->
+            <section id="flavorInfo" class="flavorInfo">
+                <h2>Why is it so delicious?!</h2>
+                <p>Caramel Cookie Crunch is vanilla ice cream packed with delicious caramel swirls
+                    and crunchy chocolate cookie bites with only 490 calroies per pint!!!</p>
+
+                <ul class="flavorList">
+                    <li>&#129379; 490 calroies per pint</li>
+                    <li>&#127850; Crunchy chocolate cookie bites</li>
+                    <li>&#127855; Golden caramel swirls</li>
+                </ul>
+            </section>
+        </main>
     </body>
     <script src="index.js"></script>
 </html>
