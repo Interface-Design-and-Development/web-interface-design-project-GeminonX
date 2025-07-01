@@ -1,12 +1,37 @@
 body{
-    color: #927215;
+    color: #4d3332;
+    width: 100%; /* Or set a fixed width */
+    height: 900px; /* Or set a fixed height */
+    background-color: #fbbf3b; /* Optional: Set a background color for the overall element */
+    background-image: linear-gradient(90deg, transparent 50%, #E28D33 50%); /* Creates alternating transparent and black stripes */
+    background-size: 500px 500px; /* Sets the size of each stripe */
+    background-repeat: repeat; /* Repeats the pattern to fill the element */
+    margin: 0;
+    padding: 0;
 }
 
-.striped_background {
-    width: 100%; /* Or set a fixed width */
-    height: 700px; /* Or set a fixed height */
-    background-color: #fdffab; /* Optional: Set a background color for the overall element */
-    background-image: linear-gradient(90deg, transparent 50%, #ffcf81 50%); /* Creates alternating transparent and black stripes */
-    background-size: 200px 200px; /* Sets the size of each stripe */
-    background-repeat: repeat; /* Repeats the pattern to fill the element */
+#header-wrapper .wrap-nav{
+    position: relative;
+    top: 0;
+    width: auto;
+    background: #fbbf3b;
+    z-index: 10;
+    /* z-index: 1; */
+    border-top: 2px solid #4d3332;
+    border-bottom: 2px solid #4d3332;
+    text-align: center;
+}
+
+.pint {
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    top: 20px;
+    left: 1200px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    
 }
