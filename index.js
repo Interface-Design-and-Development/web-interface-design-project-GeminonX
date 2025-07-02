@@ -1,7 +1,3 @@
-document.querySelector('.pint img').addEventListener('click', () => {
-    alert("Only 490 calories per pint!");
-});
-
 const learnMoreBtn = document.getElementById("learnMoreBtn");
 const flavorSection = document.getElementById("flavorInfo");
 
